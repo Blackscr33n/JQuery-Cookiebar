@@ -1,0 +1,36 @@
+#cookie-bar {
+    background: #111;
+    height: auto;
+    line-height: 24px;
+    color: #eee;
+    text-align: center;
+    padding: 3px 0;
+    z-index: 99999;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#cookie-bar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+#cookie-bar.fixed.bottom {
+    bottom: 0;
+    top: auto
+}
+#cookie-bar p {
+    margin: 0;
+    padding: 0
+}
+#cookie-bar a {
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+    text-decoration: none;
+    padding: 1px 7px;
+    margin-left: 8px
+}
+#cookie-bar .cb-disable {
+    background: #900
+}
